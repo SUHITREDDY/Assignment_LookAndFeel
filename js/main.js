@@ -1,14 +1,5 @@
-/**
- * Your JS code here
- */
-
-/**
- * Sample code
- */
-document.addEventListener('DOMContentLoaded', function() {
-  var ulElement = document.getElementById('links');
-  var liElement = document.createElement('li');
-  liElement.appendChild(document.createTextNode('created by main.js'));
-
-  ulElement.appendChild(liElement);
+document.getElementById('dropdownMenuButton').addEventListener('click', function() {
+    var dropdownContent = document.getElementById('dropdownContent');
+    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
 });
+
